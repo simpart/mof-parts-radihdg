@@ -1,2 +1,2 @@
-# mof-parts-radiph
-radius page heading of mofron UI parts
+# mof-parts-radihdg
+radius heading of mofron UI parts
