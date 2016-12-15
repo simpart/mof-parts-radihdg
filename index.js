@@ -19,12 +19,19 @@ mofron.parts.Radihdg = class extends mofron.parts.Heading {
             frame.style('width'       , '100%');
             frame.style('height'      , null);
             frame.style('border-width', '1px 1px 1px 10px');
+            
+            if (undefined != mofron.theme) {
+                var clr = mofron.theme.getColor(0);
+                if (null !== clr) {
+                    frame.style('border-color', clr.getStyle());
+                }
+            }
+            
             frame.radius(30);
             frame.addLayout(new mofron.layout.Margin('left',30));
+            frame.addChild(new mofron.parts.Heading(prm[0], prm[1]));
             this.addChild(frame, true, this.getVdom());
             
-            super.initContents(this.getTarget(), prm);
-            this.marginLeft(30);
         } catch (e) {
             console.error(e.stack);
             throw e;

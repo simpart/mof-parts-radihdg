@@ -1,6 +1,6 @@
 {
   "name": "mof-parts-radihdg",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "radius heading of mofron UI parts",
   "main": "index.js",
   "scripts": {
