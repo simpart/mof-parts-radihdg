@@ -6,6 +6,11 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "dependencies": {
+    "mofron-parts-heading" : "^0.0.2",
+    "mofron-parts-frame"   : "^0.0.2",
+    "mofron-layout-margin" : "^0.0.1"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/simpart/mof-parts-radihdg.git"

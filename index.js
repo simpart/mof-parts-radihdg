@@ -2,6 +2,9 @@
  * @file   Radihdg.js
  * @author simpart
  */
+require('mofron-parts-heading');
+require('mofron-parts-frame');
+require('mofron-layout-margin');
 
 mofron.parts.Radihdg = class extends mofron.parts.Heading {
     getTarget () {
