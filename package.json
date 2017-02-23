@@ -1,19 +1,17 @@
 {
-  "name": "mofron-parts-radihdg",
-  "version": "0.0.5",
-  "description": "radius heading of mofron UI parts",
+  "name": "mofron-comp-radihdg",
+  "version": "0.1.0",
+  "description": "Radius Heading extends component of mofron heading component",
   "main": "dist/radihdg.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
-    "mofron-parts-heading": "^0.0.3",
-    "mofron-parts-frame": "^0.0.3",
-    "mofron-layout-margin": "^0.0.2"
+    "mofron-effect-radius" : ""
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/simpart/mofron-parts-radihdg.git"
+    "url": "git+https://github.com/simpart/mofron-comp-radihdg.git"
   },
   "keywords": [
     "mofron"
@@ -21,9 +19,9 @@
   "author": "simparts",
   "license": "SEE LICENSE IN LICENSE",
   "bugs": {
-    "url": "https://github.com/simpart/mofron-parts-radihdg/issues"
+    "url": "https://github.com/simpart/mofron-comp-radihdg/issues"
   },
-  "homepage": "https://github.com/simpart/mofron-parts-radihdg#readme",
+  "homepage": "https://github.com/simpart/mofron-comp-radihdg#readme",
   "devDependencies": {
     "babel-core": "^6.21.0",
     "babel-loader": "^6.2.10",
