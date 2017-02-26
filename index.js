@@ -23,13 +23,13 @@ mofron.comp.heading.Radius = class extends mofron.comp.Heading {
     initDomConts(prm) {
         try {
             var text = null;
-            if ('string' !== typeof prm) {
+            if ('string' === typeof prm) {
                 text = new mofron.comp.Text(prm);
             } else {
                 text = prm;
             }
             
-            super.initDomConts(prm);
+            super.initDomConts(text);
             
             /* set color */
             var clr = this.theme().getColor(0);
