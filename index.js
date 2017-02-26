@@ -41,7 +41,6 @@ mofron.comp.heading.Radius = class extends mofron.comp.Heading {
             this.style('width'        , '95%');
             this.style('margin'       , '0 auto');
             this.style('border-style' , 'solid');
-            this.style('padding'      , '5px');
             
             this.align('left');
             this.effect(new mofron.effect.Radius());
